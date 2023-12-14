@@ -1,12 +1,12 @@
- # LINUXASSIGNMENT
+# LINUX ASSIGNMENT
 <hr>   
 
 
 ### 1. How to make a directory
 
- **mkdir -** The mkdir command is used to create a new directory (folder) in a file system. You can use the mkdir command in a terminal or command prompt on various operating systems.
+ **mkdir:** The mkdir command is used to create a new directory (folder) in a file system. You can use the mkdir command in a terminal or command prompt on various operating systems.
 
- **Syntax:**  **mkdir directory\_name**
+ **Syntax:mkdir directory_name**
 
  **mkdir tusha**     
 
@@ -26,8 +26,6 @@
 
 tusha\@tusha:\~$
 
-\
-\
 
 
   ****![](https://lh7-us.googleusercontent.com/QYCh-AFDwiiUdxQIGSXONd3hU44VlT-cxspYBGXaD5XbIGrkdsG0X5qm1eVaBuH9pRb41RY4OHST5nH82iERamaHKGGjMpY9tl_MjCn_ISPVyd1BzQY2qUcvsrRmxWTj1iTlsf4Qatja_Jr6njk0rXI)****
@@ -36,7 +34,7 @@ tusha\@tusha:\~$
 
      **mk:** make ,     **dir:** directory
 
- **->tusha :** it is the name of folder.
+ **->tusha:** it is the name of folder.
 
  **->ls:** This is the command to list files and directories.
 
@@ -112,11 +110,11 @@ tusha\@tusha:\~$
 
 **->test:** create directory inside the tusha directory.
 
-**->cd ..** :The **cd ..** command is used to change the current working directory to its parent directory. The **..** represents the parent directory, so executing **cd ..** moves you up one level in the directory structure.
+**->cd ..:** The **cd ..** command is used to change the current working directory to its parent directory. The **..** represents the parent directory, so executing **cd ..** moves you up one level in the directory structure.
 
              
 
-#### 3.Make a copy of a file**
+### 3.Make a copy of a file**
 
 **cp:** The **cp** command is used to copy files or directories.
 
@@ -170,7 +168,7 @@ tusha\@tusha:\~$
 
 **->destination:** The location where you want to copy the source.
 
-**->cp**: it is used to copy commands.
+**->cp:** it is used to copy commands.
 
 **->test.txt:** it is a filename.
 
@@ -186,7 +184,7 @@ tusha\@tusha:\~$
 
 **tusha\@tusha:\~$ ls**
 
- **bak  ****Desktop  ****Downloads                 ****ldap1.sh        ****ldap.sh   organisation.ldif   rm ****Templates            ****Videos**
+ **bak  ****Desktop  ****Downloads                 ****ldap1.sh        ****ldap.sh   organisation.ldif   rm ****Templates            ****Videos
 
  **Coding   Dictionary   farmer\_suicide\_in\_India.md ****LDAP\_Document.md ****ldif  ****Pictures        ****run ****test**
 
