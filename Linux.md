@@ -305,7 +305,7 @@ tusha\@tusha:\~$
 
 ****![](https://lh7-us.googleusercontent.com/NJHf6ABHM-9jE29vhFU2bi6-CsN__Z9y3XCLgZUpYzWQoOt-o3PHoLPljyAhvTi15ppV498K8rBpTSHt3UzCQn2IYwsHk34GAibQoc54N771GoS5t6eMB8iWI18SViYL1IARu05Fh9_4AHX75pwAU7E)****
 
-**->rm:** it is a remove command**.**
+**->rm:** it is a remove command.
 
 **->file1.txt file2.txt file3.txt:** it is a file name.
 
@@ -355,7 +355,7 @@ tusha\@tusha:\~/tusha$
 
 ![](https://lh7-us.googleusercontent.com/k2P0TBh2O0yNnAAmhTyOHubprGzkK4uXxO7TEw69ofciMJ7R9sf4mfLZ2Kc2l52s3ZR0VwMl15ZVyDA0_Mm9HQCkO4UtTKbm4FKvss6pKRulcAwXRjYILaVkt6B6qUxmtkxm5jkG-Y_bv_IH8Eq8APM)
 
- **->mkdir :** It is used to create a directory.
+ **->mkdir:** It is used to create a directory.
 
      **mk:** make ,     **dir:**  directory
 
