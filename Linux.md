@@ -40,7 +40,7 @@ tusha\@tusha:\~$
 
 ### 2.Remove a directory
 
-**rmdir -**The rmdir command is used to remove empty directories.
+**rmdir-** The rmdir command is used to remove empty directories.
 
  **Syntax:rmdir directory\_name**
 
