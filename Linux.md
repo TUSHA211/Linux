@@ -1,19 +1,19 @@
- **LINUXASSIGNMENT**   
+ **LINUX ASSIGNMENT1**   
+<hr>
 
 
 
+### 1. How to make a directory
 
-1. **How to make a directory**
+**mkdir -** The mkdir command is used to create a new directory (folder) in a file system. You can use the mkdir command in a terminal or command prompt on various operating systems.
 
-  **mkdir -** The mkdir command is used to create a new directory (folder) in a file system. You can use the mkdir command in a terminal or command prompt on various operating systems.
+ **Syntax:**  **mkdir directory_name**
 
-  **Syntax:**  **mkdir directory\_name**
+ **mkdir tusha**     
 
-  **mkdir tusha**     
+ **Output-**     
 
-  **Output-**     
-
- ****tusha\@tusha:\~$ mkdir tusha
+ tusha\@tusha:\~$ mkdir tusha
 
  tusha\@tusha:\~$ ls
 
@@ -27,31 +27,28 @@
 
 tusha\@tusha:\~$
 
-\
-\
-
 
   ****![](https://lh7-us.googleusercontent.com/QYCh-AFDwiiUdxQIGSXONd3hU44VlT-cxspYBGXaD5XbIGrkdsG0X5qm1eVaBuH9pRb41RY4OHST5nH82iERamaHKGGjMpY9tl_MjCn_ISPVyd1BzQY2qUcvsrRmxWTj1iTlsf4Qatja_Jr6njk0rXI)****
 
- **->  mkdir :** It is used to create a directory.
+ **->mkdir :** It is used to create a directory.
 
-       **mk** : make ,     **dir** - directory
+ **mk** : make ,     **dir** - directory
 
  **->  tusha :** it is the name of folder.
 
  **->  ls:** This is the command to list files and directories.
 
-2. **Remove a directory**
+### 2.Remove a directory
 
 **rmdir -**The rmdir command is used to remove empty directories.
 
-          **Syntax:  rmdir directory\_name**
+ **Syntax:rmdir directory\_name**
 
-          **rmdir tusha**         
+ **rmdir tusha**         
 
-          **Output-** 
+ **Output-** 
 
-          **** tusha\@tusha:\~$ ll -ld tusha
+tusha\@tusha:\~$ ll -ld tusha
 
 ls: cannot access 'tusha': No such file or directory
 
@@ -63,15 +60,11 @@ tusha\@tusha:\~$
 
  **rm** : remove   , **dir** - directory
 
-**->**    **tusha :** it is the name of folder.
+**->tusha :** it is the name of folder.
 
- 
+ **rmdir** can only remove directories that are empty. If a directory contains any files or subdirectories, the command will not work, and you'll need to use the **rm** command with the **-r (recursive)** option to remove non-empty directories.
 
-           **rmdir** can only remove directories that are empty. If a directory contains any files or subdirectories, the command will not work, and you'll need to use the **rm** command with the **-r (recursive)** option to remove non-empty directories.
-
-**Syntax**-
-
-**rm -r my\_directory**
+**Syntax:-rm -r my_directory**
 
 **rm -r tusha**
 
@@ -97,19 +90,19 @@ tusha\@tusha:\~$
 
 ![](https://lh7-us.googleusercontent.com/sRA2FFgCKDq38PUpbi7vQeLXWT4_tfQmPMLVK5M2yV3qYmVqCxSxyRaiOmnbAQxhyiNG9UCrEFMM_kWp8zfiC0pHYzrl5bxc4gI0bVMTvZxrS8cfwfZ8wvUW5owSTyCq_FZlOYuhXSwpBbpqFL8CUm0)
 
-             **mkdir :** It is used to create a directory.
+  **->mkdir:** It is used to create a directory.
 
-             **tusha :** it is the name of folder.
+  **->tusha:** it is the name of folder.
 
-             **cd** :  change directory.
+  **->cd:** change directory.
 
-             **test:**  create directory inside the tusha directory.
+  **->test:**  create directory inside the tusha directory.
 
-             **cd ..** :The **cd ..** command is used to change the current working directory to its parent directory. The **..** represents the parent directory, so executing **cd ..** moves you up one level in the directory structure.
+  **->cd ..** :The **cd ..** command is used to change the current working directory to its parent directory. The **..** represents the parent directory, so executing **cd ..** moves you up one level in the directory structure.
 
              
 
-3. **Make a copy of a file**
+ ### 3. Make a copy of a file
 
 **cp:** The **cp** command is used to copy files or directories.
 
@@ -117,11 +110,11 @@ tusha\@tusha:\~$
 
 **cp test.txt Downloads/**
 
-**Output**-
+**Output-**
 
  tusha\@tusha:\~$ touch test.txt
 
-tusha\@tusha:\~$ ls
+ tusha\@tusha:\~$ ls
 
  bak  Desktop  Downloads                 ldap1.sh        ldap.sh   organisation.ldif   rm Templates
 
@@ -159,17 +152,17 @@ tusha\@tusha:\~$
 
 ![](https://lh7-us.googleusercontent.com/HjNLXJN5mPx2l_E1HKV49JSktYSEqulpopyxwAledv3b17rLT4b2TyJLE4fuPveyeXiEY2i3hxLB1SaDyZyCU_5CMQLSAy9hmb4XWo-_OKbhINxHjnV1MS70Kq3ut_V9-1hjrQNC0Wa072g3_Gq0jNM)
 
-           -> `source`**:** The file or directory you want to copy.
+**-> source:** The file or directory you want to copy.
 
-`->destination`**:** The location where you want to copy the source.
+**->destination:** The location where you want to copy the source.
 
 **-> cp**: it is used to copy commands.
 
-->**test.txt:** it is a filename.
+**->test.txt:** it is a filename.
 
-4. **Move or rename a file**
+### 4. Move or rename a file
 
-**mv:**To move or rename a file in a Linux operating system, you can use the **mv** command. The **mv** command is versatile and can be used to both move and rename files.
+**mv:** To move or rename a file in a Linux operating system, you can use the **mv** command. The **mv** command is versatile and can be used to both move and rename files.
 
 **Syntax: mv filename destination**
 
@@ -213,13 +206,13 @@ tusha\@tusha:\~$
 
 ****![](https://lh7-us.googleusercontent.com/BC05R8650KHCmelELE39u5PGXkPb5PkKnYvwt-RKsz8z9yqxULKibljf1Qot7ckDbQa6vsXAgXg-roI8XnBD-tvxrgKSoRY9QIBapnKsQj9s9bwWntsuPvoi53Gs7g3M3L0_Yb4Ws5se_cZksYo-TWU)****
 
-**-> mv**: it is used to move commands.
+**->mv**: it is used to move commands.
 
 ->**test:** it is a filename.
 
 ->**Downloads/:** it is a destination
 
-- **Rename a file:**
+ #### Rename a file:
 
 **Syntax- mv oldfile.txt newfile.txt**
 
@@ -261,14 +254,13 @@ tusha\@tusha:\~$
 
 ->**test.txt:** it is an New filename.
 
-\
 
 
-5. **Create an empty file**
+ ### 5. Create an empty file
 
-         touch :-The touch command is used to create empty files and update   access and modification timestamps on existing files. You can use the touch command in a terminal or command prompt.
+ **touch:** The touch command is used to create empty files and update   access and modification timestamps on existing files. You can use the touch command in a terminal or command prompt.
 
- **Syntax**: **touch filename**
+ **Syntax:touch filename**
 
  **touch tusha.txt**
 
@@ -290,15 +282,15 @@ tusha\@tusha:\~$
 
 ![](https://lh7-us.googleusercontent.com/CMrrymspFjl5OPajcX44H7-c1xfE_Adb-_QCpJQjuBWIUaxhLDiALPtdEq3VjKc899VAEB5RVNzK9GB3A1qCG52d4MR6pij6hw-Inw0Uy0Iee_GmExzgYCT392Y74xZJYdn2iLv1OkNUM3QMugF5J9k)
 
- **->touch:**it is used to create an empty file command.
+ **->touch:** it is used to create an empty file command.
 
-**-> tusha.txt:**It is a filename.
+**->tusha.txt:** It is a filename.
 
     
 
-6. **Remove multiple files with a single command**
+### 6.Remove multiple files with a single command
 
- **rm-**To remove multiple files with a single command in a Unix-like operating system.
+**rm-** To remove multiple files with a single command in a Unix-like operating system.
 
 **Syntax: rm filename**
 
@@ -312,9 +304,9 @@ tusha\@tusha:\~$
 
    
 
-7. **Remove content from the folder without removing folder**
+ ### 7.Remove content from the folder without removing folder
 
-**rm -r:**To remove the contents of a folder without removing the folder itself, you can use the **rm** command with the **-r (recursive)** option.
+**rm -r:** To remove the contents of a folder without removing the folder itself, you can use the **rm** command with the **-r (recursive)** option.
 
 **Syntax: rm -r filename**
 
@@ -346,19 +338,19 @@ tusha\@tusha:\~/tusha$
 
 **->-r :** it is a recursive option.
 
-8. **Create multiple folder(a-z) with a single command**
+### 8.Create multiple folder(a-z) with a single command
 
-         **mkdir-**To create multiple folders (a-z) using a single command, you can use a loop in a shell or command prompt.
+  **mkdir-** To create multiple folders (a-z) using a single command, you can use a loop in a shell or command prompt.
 
-      **Syntax**: **mkdir {a..z}**
+  **Syntax**: **mkdir {a..z}**
 
-     This command uses brace expansion to create folders named from **"a" to   "z".** Each letter is separated by two dots. After running this command, you should have folders named **a, b, c, ..., z** in your current directory.
+ This command uses brace expansion to create folders named from **"a" to   "z".** Each letter is separated by two dots. After running this command, you should have folders named **a, b, c, ..., z** in your current directory.
 
 ![](https://lh7-us.googleusercontent.com/k2P0TBh2O0yNnAAmhTyOHubprGzkK4uXxO7TEw69ofciMJ7R9sf4mfLZ2Kc2l52s3ZR0VwMl15ZVyDA0_Mm9HQCkO4UtTKbm4FKvss6pKRulcAwXRjYILaVkt6B6qUxmtkxm5jkG-Y_bv_IH8Eq8APM)
 
  **-> mkdir :** It is used to create a directory.
 
-       **mk** : make ,     **dir** - directory
+    **mk** : make ,     **dir** - directory
 
-**->{a..z} :**it is the name of folder.
+**->{a..z}:** it is the name of folder.
 
