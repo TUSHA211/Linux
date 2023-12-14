@@ -48,17 +48,13 @@ tusha\@tusha:\~$
 
  **Output-** 
 
-tusha\@tusha:\~$ ll -ld tusha
 
-ls: cannot access 'tusha': No such file or directory
-
-tusha\@tusha:\~$
 
 ![](https://lh7-us.googleusercontent.com/khC8ssS_PaGvy0rvvLwPW_G2njDizRL9V4yXQosz90aenlnOIUrD1min-d7ZlaVd-618xpBW_E3AF8HBHB-xJjeIyFMSMDf5YSIdBe0Ip0BTj1MCPGgzQdFnH_w4c_LFiQEULTpMKvZrgpAfi54wcnU)
 
- **->  rmdir :** It is used to remove an empty directory.
+ **->rmdir:** It is used to remove an empty directory.
 
- **rm** : remove   , **dir** - directory
+ **rm:** remove   , **dir:** directory
 
 **->tusha :** it is the name of folder.
 
