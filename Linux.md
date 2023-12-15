@@ -266,8 +266,7 @@ tusha\@tusha:\~$
 
 ### 5.Create an empty file
 
-**touch:** The touch command is used to create empty files and update   access and modification timestamps on existing files. You can use the touch command in a terminal or command prompt.
-
+**touch:** It is used to create a file without any content. The file created using the touch command is empty.
  **Syntax: touch filename**
 
  **touch tusha.txt**
