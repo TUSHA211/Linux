@@ -220,9 +220,9 @@ tusha\@tusha:\~/Downloads$
 
 **->Downloads/:** it is a destination
 
- #### Rename a file
+ ### Rename a file
 
-**Syntax:mv oldfile.txt newfile.txt**
+**Syntax: mv oldfile.txt newfile.txt**
 
 **mv tusha.txt test.txt**
 
