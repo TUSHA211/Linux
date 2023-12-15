@@ -116,6 +116,7 @@ tusha\@tusha:\~$
 **cp:** The **cp** command is used to copy files or directories.
 
 **Syntax:cp source(filename/directory name) destination**
+
 **cp test.txt Downloads/**
 
 **Output-**
