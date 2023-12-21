@@ -293,6 +293,27 @@ tusha\@tusha:\~$
 
 **->tusha.txt:** It is a filename.
 
+##### Cat command - The cat command is short for concatenate. It can be used to output the contents of several files, one file, or even part of a file. If the file doesn’t exist, the Linux cat command will create it.
+To create an empty file using cat
+**Syntax: cat > filename**
+     cat > test3.txt
+
+**Output:**     
+tusha@tusha:~$ cat > test2.txt
+^C
+tusha@tusha:~$ ls
+ bak      Desktop      farmer_suicide_in_India.md   'Ldap explanation'   logs                Pictures   snap        Videos
+ Coding   Dictionary   farmer_suicide_in_India.pdf   LDAP.md             Music               Public     ssca
+ config   Documents    group.ldif                    ldap.sh             opt                 rm         Templates
+ db       Downloads    LDAP_Document.md              ldif                organisation.ldif   run        test2.txt
+tusha@tusha:~$ ^C
+tusha@tusha:~$ 
+
+
+
+
+
+
     
 
 ### 6.Remove multiple files with a single command
@@ -359,5 +380,5 @@ tusha\@tusha:\~/tusha$
 
      **mk:** make ,     **dir:**  directory
 
-**->{a..z}:** it is the name of folder.
+**->{a..z}:** This is brace expansion in Bash. It generates a sequence of letters from "a" to "z". In this case, it expands to "a b c d e f g h i j k l m n o p q r s t u v w x y z".
 
